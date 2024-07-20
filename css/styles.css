@@ -488,12 +488,23 @@ header span {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-left: 16px;
 }
 
 .footer-form-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 .foter-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -502,15 +513,16 @@ header span {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  border-radius: 4px;
+  /* padding: 8px 24px; */
+  min-width: 165px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
 }
 .footer-form-send-icon {
   fill: #ffffff;
-
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: #fff;
+  margin-left: 16px;
 }
 
 .backdrop {
