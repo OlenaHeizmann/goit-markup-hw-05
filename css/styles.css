@@ -471,9 +471,26 @@ header span {
 }
 
 .footer-form {
+  display: flex;
+  gap: 24px;
   margin-left: 80px;
   width: 453px;
   height: 80px;
+}
+
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-form-input::placeholder {
 }
 
 .foter-form-btn {
@@ -488,6 +505,12 @@ header span {
 }
 .footer-form-send-icon {
   fill: #ffffff;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 .backdrop {
