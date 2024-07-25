@@ -668,6 +668,10 @@ header span {
   fill: #4d5ae5;
 }
 
+.modal-input:focus + .modal-form-name-icon {
+  fill: #4d5ae5;
+}
+
 .modal-form-wraper {
   margin-bottom: 8px;
 }
@@ -697,6 +701,10 @@ header span {
 }
 
 .modal-form-textarea-wraper {
+  margin-bottom: 16px;
+}
+
+.modal-form-checkbox-wraper {
   margin-bottom: 24px;
 }
 
