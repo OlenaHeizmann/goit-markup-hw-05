@@ -561,7 +561,6 @@ header span {
   transform: translate(-50%, -50%);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
 }
 
 .backdrop:not(.is-open) .modal {
@@ -751,12 +750,15 @@ header span {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-checkbox:checked + .checkbox-privacy-text span {
-  border-radius: 2px;
-  fill: #404bbf;
-  border: 1px solid #404bbf;
+.modal-checkbox:checked + .checkbox-privacy-text span {
+  fill: #f4f4fd;
+  background-color: #404bbf;
+  border: none;
 }
 
 .modal-form-checkbox-link {
@@ -768,7 +770,7 @@ header span {
 .form-send-btn {
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
@@ -779,4 +781,9 @@ header span {
   text-align: center;
   color: #fff;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  display: block;
+  cursor: pointer;
+  margin: 24px 96px 24px 95px;
 }
