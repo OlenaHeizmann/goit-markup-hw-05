@@ -615,6 +615,7 @@ header span {
   margin-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .modal-input-title {
@@ -626,6 +627,7 @@ header span {
   line-height: 1.17;
   display: flex;
   margin-bottom: 4px;
+  display: block;
 }
 
 .modal-input {
@@ -688,6 +690,14 @@ header span {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.input-feld:focus {
+  border-color: #4d5ae5;
+}
+
+.input-feld:hover {
+  border-color: #4d5ae5;
+}
+
 .modal-form-textarea-wraper {
   margin-bottom: 16px;
 }
@@ -713,9 +723,25 @@ header span {
   border-color: #4d5ae5;
 }
 
+.modal-form-textarea:focus {
+  border-color: #4d5ae5;
+}
+
 .modal-form-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
+.modal-form-checkbox-wrape {
+  margin-bottom: 24px;
+}
+
+.checkbox-privacy-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
 .modal-form-checkbox-link {
   line-height: 1.33;
   text-decoration: underline;
