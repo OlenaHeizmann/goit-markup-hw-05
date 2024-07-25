@@ -737,9 +737,26 @@ header span {
 .checkbox-privacy-text {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+}
+
+.checkbox-span {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.modal-form-checkbox:checked + .checkbox-privacy-text span {
+  border-radius: 2px;
+  fill: #404bbf;
+  border: 1px solid #404bbf;
 }
 
 .modal-form-checkbox-link {
