@@ -470,15 +470,12 @@ header span {
   background-color: #31d0aa;
 }
 
-.footer-subtitle {
-  padding-left: 80px;
+.footer-form-wraper {
+  margin-left: auto;
 }
 .footer-form {
   display: flex;
   gap: 24px;
-  margin-left: 80px;
-  width: 453px;
-  height: 80px;
 }
 
 .footer-form-input {
@@ -639,11 +636,6 @@ header span {
   left: 16px;
 }
 
-.modal-input:hover {
-  border: 1px solid #4d5ae5;
-  border-radius: 4px;
-}
-
 .modal-input:focus {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
@@ -736,10 +728,9 @@ header span {
 .modal-form-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
-.modal-form-checkbox-wrape {
-  margin-bottom: 24px;
-}
 
+.modal-checkbox {
+}
 .checkbox-privacy-text {
   font-weight: 400;
   font-size: 12px;
@@ -754,6 +745,7 @@ header span {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   display: inline-flex;
+  margin-right: 4px;
   align-items: center;
   justify-content: center;
   fill: transparent;
